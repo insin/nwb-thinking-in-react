@@ -1,7 +1,7 @@
 {
   "name": "nwb-thinking-in-react",
   "version": "1.0.0",
-  "description": "Describe nwb-thinking-in-react here",
+  "description": "An implementation of the Thinking in React example using nwb",
   "private": true,
   "scripts": {
     "build": "nwb build-react-app",
@@ -12,13 +12,17 @@
     "test:watch": "nwb test --server"
   },
   "dependencies": {
+    "bootstrap": "3.3.7",
     "react": "15.3.0",
     "react-dom": "15.3.0"
   },
   "devDependencies": {
     "nwb": "0.12.x"
   },
-  "author": "",
+  "author": "Jonny Buchanan <jonathan.buchanan@gmail.com>",
   "license": "MIT",
-  "repository": ""
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/insin/nwb-thinking-in-react.git"
+  }
 }
