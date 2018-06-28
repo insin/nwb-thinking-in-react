@@ -4,20 +4,21 @@
   "description": "An implementation of the Thinking in React example using nwb",
   "private": true,
   "scripts": {
-    "build": "nwb build-react-app",
+    "build": "nwb build-react-app --no-polyfill --webpack.publicPath=",
     "clean": "nwb clean-app",
     "start": "nwb serve-react-app",
-    "test": "nwb test",
-    "test:coverage": "nwb test --coverage",
-    "test:watch": "nwb test --server"
+    "test": "nwb test-react",
+    "test:coverage": "nwb test-react --coverage",
+    "test:watch": "nwb test-react --server"
   },
   "dependencies": {
-    "bootstrap": "3.3.7",
-    "react": "15.3.0",
-    "react-dom": "15.3.0"
+    "bootstrap": "3.x",
+    "prop-types": "15.x",
+    "react": "16.x",
+    "react-dom": "16.x"
   },
   "devDependencies": {
-    "nwb": "0.12.x"
+    "nwb": "0.22.x"
   },
   "author": "Jonny Buchanan <jonathan.buchanan@gmail.com>",
   "license": "MIT",

@@ -1,4 +1,5 @@
-import React, {Component, PropTypes as t} from 'react'
+import t from 'prop-types'
+import React, {Component} from 'react'
 
 let ProductCategoryRow = ({category}) => <tr>
   <th colSpan="2">{category}</th>
@@ -6,10 +7,11 @@ let ProductCategoryRow = ({category}) => <tr>
 
 let ProductRow = ({product}) => <tr>
   <td>
-    {product.stocked ?
-      product.name :
+    {product.stocked ? (
+      product.name
+    ) : (
       <span style={{color: 'red'}}>{product.name}</span>
-    }
+    )}
   </td>
   <td>{product.price}</td>
 </tr>

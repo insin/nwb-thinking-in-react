@@ -1,10 +1,10 @@
 # nwb-thinking-in-react
 
-An implementation of the filterable product table from [the Thinking in React tutorial](https://facebook.github.io/react/docs/thinking-in-react.html) using nwb for development.
+An implementation of the filterable product table from [the Thinking in React tutorial](https://reactjs.org/docs/thinking-in-react.html) using nwb for development.
 
 ## Prerequisites
 
-[Node.js](http://nodejs.org/) >= v4 must be installed.
+[Node.js](http://nodejs.org/) >= 6 must be installed.
 
 ## Installation
 
